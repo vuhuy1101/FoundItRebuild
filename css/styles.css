@@ -69,16 +69,22 @@ header form {
 
 section{
     display: block;
+    position: relative;
 }
 
-#first{
+.first{
 	/* Giving a display value to the HTML5 rendered elements: */
     height: 600px;
     background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center;
     background-position: top;
-	background-image: url("../img/background.jpg"); 
+	background-image: url("../img/background.jpg");
+    position: relative;
+}
+.navbarr{
+    margin-bottom: 70px;
+    display: block;
 }
 
 #second{
@@ -87,10 +93,18 @@ section{
     text-align: center;
 }
 
+
 .content {
 	padding: 1em 0 3em;
 	max-width: 1080px;
 	margin: 0 auto;
 }
 
+.searchFilter{
+    position: relative;
+    display: block;
+}
 
+.mapSection{
+    height: 100%;
+}
